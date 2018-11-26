@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AddUser">
+
+    <ImageView
+        android:id="@+id/postAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="VectorDrawableCompat"
+        android:padding="42dp"/>
+
+    <EditText
+        android:id="@+id/postID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What is your User I.D"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/postFN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What is your First Name"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/postLN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What is your Last Name"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/chooseBTN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="choose a pitcure" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/postBTN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Post User" />
+
+
+</LinearLayout>
